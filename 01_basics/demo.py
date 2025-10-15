@@ -11,5 +11,35 @@ print("good morning")
 print('good morning')
 
 #print(hello)# Name 'hello'is not defined.did you mean :'help'?
-hello="hello hi"
+hello="hello hi"  #Here i inilizating and asigning
 print(hello)
+
+#class="10th standard"#SyntaxError: invalid syntax--->class is a Keyword
+classes="10th standard"
+print(classes)
+
+print("class")  #Its value
+
+
+#Identifers
+data = "hello good morning"
+print(data)
+
+#2day_data = "hello"#invalid as start with digits
+#print(2day_data)
+
+_data = "hello"
+print(_data)
+
+#$data ="Hello" #SyntaxError: invalid syntax can not have $ only _allowed
+#print($data)
+
+#Improper way of using Identifer
+x = "rahul"
+y = 13
+z = "python"
+
+#proper way of using identifer
+student_name = "rahul"
+student_rollNo. = 30
+student_course ="python"
