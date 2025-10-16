@@ -76,7 +76,7 @@ z="easy"
 #print(xyz) NameError: name 'xyz'is not defines
 
 #python is easy
-print(x+y+Z) #Concatenation
+print(x+y+z) #Concatenation
 
 x=10
 y=20
@@ -85,5 +85,49 @@ print(x+y+z) #Addition operator
 
 #name and age
 name = "Rahul"
-age = 27
-print("my name is"+name"and my age is"+age)# typeError :can only concatenation string To string (not "int")
+age = 26
+#print("my name is"+name"and my age is"+age)# typeError :can only concatenation string To string (not "int")
+
+#My name is rahul and my age is 26
+#Old style of python
+print("my name is",name + "and my age is",age)
+
+#print("my name is",name +"and my age is",age +"after 5 year my is",age+5)
+#TypeError: unsupported operand type(s) for +: 'int' and 'str'
+
+#New Style of python (f-String)
+print("my name is {name}and my age is {age}after 5 year my age is{age+5}")# no f-string
+print(f"my name is {name} and my age is {age} after 5 year my age is {age+5}")# f-string
+#In Python, f-strings (formatted string literals) are a quick and readable way to include variables or expressions inside strings.
+
+#working with multiple variables
+
+x=10
+y=20
+z=40
+print(x)
+print(y)
+print(z)
+
+# Above can also be done
+x,y,z = 10,20,30,#Always LHS == RHS
+print(x)
+print(y)
+print(z)
+
+#x,y,z=10,20,30,40 #ValueError :too many values to unpack (expected 3)
+print(x)
+print(y)
+print(z)
+
+
+a=10
+b=20
+c=30
+d=40
+
+a=c=d=10
+print(a)
+print(c)
+print(d)
+
