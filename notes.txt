@@ -136,7 +136,7 @@
         -> windows - .exe
         -> macos - .pkg
 
-        -> NOTE : Check both the options, while installing python(adds PATH variable to Env Settings)
+        ->  : Check both the options, while installing python(adds PATH variable to Env Settings)
 
         -> Win : Command Prompt(cmd) --> python --version 
 
@@ -196,7 +196,7 @@
                     -> win : python 
                     -> mac : python3 
 
-            -> NOTE : Code written in CLI mode is for temporary purpose
+            ->  : Code written in CLI mode is for temporary purpose
     
     -> Any Programming Language has Syntax (Rules & Guidelines)
 
@@ -222,7 +222,7 @@
 
         -> Keywords + Syntax = Program / Application
 
-        -> NOTE : Keywords cannot be used as identifiers
+        ->  : Keywords cannot be used as identifiers
 
         -> English 
             -> today i take class for 8 AM to 9 AM (invalid)
@@ -258,7 +258,7 @@
 
                 -> A letter or Underscore
             
-            -> NOTE : keywords cannot be identifiers
+            ->  : keywords cannot be identifiers
 
 -> Variables 
 
@@ -276,13 +276,13 @@
         student_name = "Ravi"
         = is called as assignment operator
 
-    -> NOTE : A function in python is going to do a task
+    ->  : A function in python is going to do a task
 
     -> id() : Is used to display the identity of an object 
 
     -> type() : Is used to display the type of data assigned for a variable
 
-    -> NOTE : In python a variable can change during the execution 
+    ->  : In python a variable can change during the execution 
 
     -> When you want to output string data (combing multiple variables) 
 
@@ -378,3 +378,73 @@
             -> &(AND) - sets each bit to 1, if both bits are 1
             -> | (OR) - sets each bit to 1, if one of the bits is 1
             -> etc
+
+
+            12th Sep 2025
+            =============
+
+            -> Data Types 
+
+    -> Data Types are categories that define, what kind of data a variable can hold
+
+    -> Numeric Types 
+
+        -> int : whole numbers (1, 5, 10, -5 etc)
+        -> float : decimal numbers (1.5, 3.5, 10.0 etc)
+        -> complex : complex numbers used in maths
+                   Math   : a + ib (i - imaginary)
+                   Python : a + bj (j - imaginary)
+
+    -> Text Type
+
+        -> str : String is a sequence of characters enclosed in " " or ' '
+    
+    -> Boolean Type 
+
+        -> bool : Represents True / False
+
+    -> Sequence Types
+
+        -> str : String is a sequence of characters enclosed in " " or ' '
+
+        -> List : Complex Datatype, holds multiple values, represented using [] -> Mutable (Modify)
+
+        -> Tuple : Complex Datatype, holds multiple values, represented using () -> Immutable (Cannot Modify) (READ ONLY)
+
+    -> Set Type 
+
+        -> Set : Complex Datatype, holds multiple values, represented using { } -> Unique Data & Mutable
+        -> Frozen Set : Complex Datatype, holds multiple values, represented using { } -> Unique Data & Immutable
+
+    -> Mapping Type
+
+        -> Dictionary : Complex Datatype, holds multiple items, represented using { } 
+
+            -> item/pair : key & value
+    
+    -> None Type 
+
+        -> Represents nothing i.e absence of value
+
+    ->  : Above discussed are pre-defined types which are part of standard python library 
+
+    ->  : Based on thr Requirements, you can create your own Data types, using keyword class
+
+        -> Syntax 
+
+            class CustomDataType:
+                logics -> pass
+    
+
+    -> Type Conversion 
+
+        -> Convert one data type to another Automatically by python 
+
+    -> Type Casting 
+
+        -> Convert one data type to another Manually be developer 
+
+            -> int() : converts into int value
+            -> float() : converts into float value
+            -> str() : converts into string value 
+            -> etc 
