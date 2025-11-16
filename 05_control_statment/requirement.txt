@@ -38,7 +38,7 @@
 
     -> GOOD ATTENDANCE and also "A" Grade, give award to student
 
--> Output 
+-> Output .
 
     -> Student ID
     -> Student Name
