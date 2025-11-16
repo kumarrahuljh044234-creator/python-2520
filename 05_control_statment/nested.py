@@ -13,7 +13,8 @@ else:
 
 #Nested loops
 
-for row in range(1, 8):           # Outer loop (1 to 5)
+for row in range(1, 8):           # Outer loop (1 to 5)    #range(start, stop, step)
+
     for column in range(1, 4):       # Inner loop (1 to 5)
         print(f"{row} * {column} = {row*column}")
     print("-------------------")     # Blank line after each table
