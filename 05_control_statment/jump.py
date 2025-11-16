@@ -4,7 +4,7 @@
 for number in range(1,20):
     print(number)
 
-    print("_______break________")
+    print("_______break___________")
 
 for number in range(1,20):
     if number == 10:
