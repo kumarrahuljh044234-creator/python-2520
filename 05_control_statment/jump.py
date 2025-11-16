@@ -20,7 +20,7 @@ for number in range(1,20):
         continue
     print(number)
 
-print("_____pass_________")
+print("_____pass____________")
 
 #Pass
 #Does nothing — used as a placeholder when no code is needed (to avoid error
