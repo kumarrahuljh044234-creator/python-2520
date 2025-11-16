@@ -570,3 +570,27 @@
         Stop = default → beginning ("P")
         Step = -1 (reverse direction)
 
+18th Sep 2025
+=============
+
+    -> Student Grade Tracker Solution
+
+    -> String Formatting
+
+    -> String Concatenation
+       *Concatenation means joining two or more strings together.
+        In Python, you can join strings using the + operator.
+        can only concatenate str (not "int") to str
+
+    -> Interpolation
+       *String Interpolation means inserting values (variables) inside a string
+        f" text {variable} text "
+        "text {} text {}".format(value1, value2)
+        
+    -> String Repetition
+
+    -> String Immutability 
+
+    -> String Methods 
+
+        -> String class(datatype) provides various methods 
