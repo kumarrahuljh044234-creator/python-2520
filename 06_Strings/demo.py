@@ -98,3 +98,47 @@ text = "python"
 print(text[0]) 
 print(text[3]) 
 # print(text[10]) # IndexError: string index out of range
+
+print(text[0:6:-1])
+
+#Concatenation means joining two or more strings together.
+#String concatenate
+a = "hi"
+b = "rahul"
+print(a+b)
+
+a = 10
+b = 20
+print(a+b)
+
+#String formating
+age = 26
+#print("my age is: "+age)#TypeError: can only concatenate str (not "int") to str
+
+#Interpolation  (String Interpolation means inserting values (variables) inside a string.)
+print(f"my age is:{age}")
+print("my age is:",age)
+print("my age is:", +age)
+print("my age is: "+str(age))
+
+print("my age after 5 year would be:",+age+5)
+
+
+#String repetition (String repetition means repeating a string multiple times using the * operator.)
+laugh = "haha"
+print(laugh)
+
+laugh_toomuch = "hahahahahahahahahahahahahahahahahahahahahahahahahahahaha"
+print(laugh_toomuch)
+
+laugh_toomuch = laugh*30
+print(laugh_toomuch)
+
+#String immutability (Immutability = Cannot be changed after creation)
+greet = "hello"
+print(greet)
+
+print("i am trying to change the value in existing value")
+#greet[0] = "H"
+#print(greet)
+
