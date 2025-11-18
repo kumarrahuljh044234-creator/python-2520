@@ -30,7 +30,7 @@ else:
     print("calling support avilable only to india , china & usa")
 
 
-#Email synchronization -> gmail.com
+#Email synchronization -> gmail.com.
 source_email = input("Enter your email ID: ")
 destination_email = ("Enter your email ID: ")
 
