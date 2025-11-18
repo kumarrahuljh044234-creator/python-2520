@@ -40,7 +40,7 @@ else:
     print("synchronization failed both providers should of same type")
 
 
-#gmail remove spaces at the beginning and ending od email id provided.
+#gmail remove spaces at the beginning and ending od email id provided..
 email = input ("Enter your email ID: ")
 format_email = email.strip()
 print(format_email)
