@@ -601,4 +601,4 @@
 
     -> String Methods Continued 
 
-    -> App Req On Strings
+    -> App Req On Strings.
