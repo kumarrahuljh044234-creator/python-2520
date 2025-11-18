@@ -46,7 +46,7 @@ format_email = email.strip()
 print(format_email)
 
 
-# csv / excel lot of data in rows 
+# csv / excel lot of data in rows .
 # Name,City,Age,Email,Role
 emp_row = "John,Hyd,25,john@gmai.com,Developer"
 print("Original Data: "+emp_row)
